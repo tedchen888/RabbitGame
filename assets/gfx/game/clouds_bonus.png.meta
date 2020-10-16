@@ -1,12 +1,18 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.5",
   "uuid": "b4cd9dba-769c-4070-807e-521e2369c9b8",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 421,
+  "height": 104,
+  "platformSettings": {},
   "subMetas": {
     "clouds_bonus": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "529bf30d-080e-4723-8736-3263b02b6298",
       "rawTextureUuid": "b4cd9dba-769c-4070-807e-521e2369c9b8",
       "trimType": "auto",

@@ -9,7 +9,7 @@
   "type": "Texture Packer",
   "subMetas": {
     "snail_01.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "aaba7764-92b5-479f-90c8-974e4d9a3624",
       "rawTextureUuid": "11ee3410-656e-4c63-89db-fff6023bfb38",
       "trimType": "auto",
@@ -31,7 +31,7 @@
       "subMetas": {}
     },
     "snail_02.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "0fbf7861-537b-4393-b6ad-6207f9810dbc",
       "rawTextureUuid": "11ee3410-656e-4c63-89db-fff6023bfb38",
       "trimType": "auto",
@@ -53,7 +53,7 @@
       "subMetas": {}
     },
     "snail_03.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "eb72dc33-eeaa-4136-9bde-b59c9b30bae4",
       "rawTextureUuid": "11ee3410-656e-4c63-89db-fff6023bfb38",
       "trimType": "auto",
@@ -75,7 +75,7 @@
       "subMetas": {}
     },
     "snail_04.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "aadf2899-d393-4da7-b038-9f2e55898df1",
       "rawTextureUuid": "11ee3410-656e-4c63-89db-fff6023bfb38",
       "trimType": "auto",
@@ -97,7 +97,7 @@
       "subMetas": {}
     },
     "snail_05.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "a0fcfe50-c264-444c-bf2c-0edc527924c7",
       "rawTextureUuid": "11ee3410-656e-4c63-89db-fff6023bfb38",
       "trimType": "auto",

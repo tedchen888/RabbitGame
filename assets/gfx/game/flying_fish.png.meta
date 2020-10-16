@@ -1,12 +1,18 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.5",
   "uuid": "a324b86e-4643-42ff-a80b-c30309367403",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 179,
+  "height": 79,
+  "platformSettings": {},
   "subMetas": {
     "flying_fish": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "be5b5940-de9d-4a4b-b126-5700439ab17d",
       "rawTextureUuid": "a324b86e-4643-42ff-a80b-c30309367403",
       "trimType": "auto",

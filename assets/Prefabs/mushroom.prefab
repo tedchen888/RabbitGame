@@ -33,15 +33,6 @@
       "height": 60
     },
     "_children": [],
-    "_rotationX": 0,
-    "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1,
-    "_position": {
-      "__type__": "cc.Vec2",
-      "x": 706,
-      "y": 557
-    },
     "_skewX": 0,
     "_skewY": 0,
     "_localZOrder": 0,
@@ -64,7 +55,23 @@
     "_prefab": {
       "__id__": 5
     },
-    "groupIndex": 7
+    "groupIndex": 7,
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        706,
+        557,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
   },
   {
     "__type__": "cc.Sprite",

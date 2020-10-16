@@ -1,12 +1,18 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.5",
   "uuid": "334db9e5-7c1a-4437-a1f8-9b2747bbb9f0",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 398,
+  "height": 58,
+  "platformSettings": {},
   "subMetas": {
     "sea_fish": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "91130e72-b86c-4031-aa62-c1808ba8a8d4",
       "rawTextureUuid": "334db9e5-7c1a-4437-a1f8-9b2747bbb9f0",
       "trimType": "auto",

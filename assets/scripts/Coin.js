@@ -5,25 +5,23 @@ cc.Class({
     properties: {
         coin_label: cc.Label,
         coinNum: 0,
-        hightestScoreLabel:cc.Label,
+        hightestScoreLabel: cc.Label,
     },
 
     // use this for initialization
-    onLoad: function ()
-        {
+    onLoad: function() {
 
-        },
+    },
 
-    addCoin: function ()
-        {
-            this.coinNum++;
-            this.coin_label.string = this.coinNum + "";
-            if(storageManager.getHighestScore()<this.coinNum){
-                storageManager.setHighestScore(this.coinNum);
-                this.changeHightestScoreLabel();
-            }
-        },
-    changeHightestScoreLabel(){
+    addCoin: function() {
+        this.coinNum++;
+        this.coin_label.string = this.coinNum + "";
+        if (storageManager.getHighestScore() < this.coinNum) {
+            storageManager.setHighestScore(this.coinNum);
+            this.changeHightestScoreLabel();
+        }
+    },
+    changeHightestScoreLabel() {
         this.hightestScoreLabel.string = "最高分:" + storageManager.getHighestScore();
     },
 

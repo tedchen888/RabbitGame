@@ -1,12 +1,18 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.5",
   "uuid": "7a23c83b-e6df-402a-a761-2aef78599508",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 391,
+  "height": 260,
+  "platformSettings": {},
   "subMetas": {
     "fall_block_enemy": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "1a48dfbc-9b9e-4388-ab59-4b8a9b24b563",
       "rawTextureUuid": "7a23c83b-e6df-402a-a761-2aef78599508",
       "trimType": "auto",

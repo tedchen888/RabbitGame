@@ -5,7 +5,7 @@ cc.Class({
     properties: {
         gold_label: cc.Label,
         coinNum: 0,
-        hightestScoreLabel:cc.Label,
+        hightestScoreLabel: cc.Label,
         coinAudio: {
             default: null,
             url: cc.AudioClip
@@ -13,20 +13,20 @@ cc.Class({
     },
 
     // use this for initialization
-    onLoad: function () {
+    onLoad: function() {
         this.hightestScoreLabel.string = "最高分: " + storageManager.getHighestScore();
         // cc.find('HighScore/Score').string = "最高分: " + storageManager.getHighestScore();
     },
     addCoin: function() {
-        cc.audioEngine.play(this.coinAudio, false,Global.volume);
+        cc.audioEngine.play(this.coinAudio, false, Global.volume);
         this.coinNum++;
         this.gold_label.string = this.coinNum + "";
-        if(storageManager.getHighestScore()<this.coinNum){
+        if (storageManager.getHighestScore() < this.coinNum) {
             storageManager.setHighestScore(this.coinNum);
             this.changeHightestScoreLabel();
         }
     },
-    changeHightestScoreLabel(){
+    changeHightestScoreLabel() {
         this.hightestScoreLabel.string = "最高分: " + storageManager.getHighestScore();
         // cc.find('HighScore/Score').string = "最高分: " + storageManager.getHighestScore();
     },

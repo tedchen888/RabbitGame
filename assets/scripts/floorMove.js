@@ -12,13 +12,13 @@ cc.Class({
         // },
         // ...
         hero: {
-            default:null,
+            default: null,
             type: cc.Node,
         }
     },
 
     // use this for initialization
-    onLoad: function () {
+    onLoad: function() {
         var self = this;
         //console.log(this.getComponent(cc.Sprite));
         self.node.runAction(cc.follow(self.hero));

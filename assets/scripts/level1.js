@@ -10,19 +10,17 @@ cc.Class({
     },
 
     // use this for initialization
-    onLoad: function () {
+    onLoad: function() {
         cc.audioEngine.stopAll();
         cc.audioEngine.play(this.menu_music, true, Global.volume);
-        if (!Global.level2Open)
-        {
+        if (!Global.level2Open) {
             var scaleTo = cc.scaleTo(.8, .9);
             var reverse = cc.scaleTo(.8, 1);
             var seq = cc.sequence(scaleTo, reverse);
             var repeat = cc.repeatForever(seq);
             this.node.runAction(repeat);
         }
-        this.node.on(cc.Node.EventType.TOUCH_START, function ()
-        {
+        this.node.on(cc.Node.EventType.TOUCH_START, function() {
             cc.director.loadScene("Main");
         });
     },

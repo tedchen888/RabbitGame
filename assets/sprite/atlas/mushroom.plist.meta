@@ -9,7 +9,7 @@
   "type": "Texture Packer",
   "subMetas": {
     "mushroom.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "a760b6f7-871f-4024-b9f9-5423d4c431b9",
       "rawTextureUuid": "7ef95f49-afca-420a-98d4-0f431e1c8fb7",
       "trimType": "auto",
@@ -31,7 +31,7 @@
       "subMetas": {}
     },
     "mushroom2.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "a49c0ac5-d997-4e37-ad5f-ccb4f8b83dc7",
       "rawTextureUuid": "7ef95f49-afca-420a-98d4-0f431e1c8fb7",
       "trimType": "auto",
@@ -53,7 +53,7 @@
       "subMetas": {}
     },
     "mushroom22.png": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "3e922bee-2c81-402c-b3e0-ad8d33e96354",
       "rawTextureUuid": "7ef95f49-afca-420a-98d4-0f431e1c8fb7",
       "trimType": "auto",

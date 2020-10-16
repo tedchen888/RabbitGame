@@ -1,12 +1,18 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.5",
   "uuid": "f6037c6f-d783-4e2c-9b45-f6d6ea931483",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 470,
+  "height": 156,
+  "platformSettings": {},
   "subMetas": {
     "achievements_button": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "a496e72b-10f7-4c3b-a11c-3440c77d1e85",
       "rawTextureUuid": "f6037c6f-d783-4e2c-9b45-f6d6ea931483",
       "trimType": "auto",
